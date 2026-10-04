@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="LanBox support and privacy policy">
+  <title>LanBox — 支持与隐私政策</title>
+  <style>
+    :root { color-scheme: light dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    body { max-width: 780px; margin: 0 auto; padding: 32px 20px 72px; line-height: 1.65; }
+    header { margin-bottom: 36px; }
+    h1 { margin-bottom: 4px; }
+    h2 { margin-top: 40px; padding-top: 16px; border-top: 1px solid color-mix(in srgb, CanvasText 18%, transparent); }
+    h3 { margin-top: 28px; }
+    nav a { margin-right: 18px; }
+    .muted { opacity: .68; }
+    code { overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LanBox</h1>
+    <p class="muted">支持与隐私政策 / Support &amp; Privacy Policy</p>
+    <nav><a href="#support">技术支持</a><a href="#privacy">隐私政策</a><a href="#english">English</a></nav>
+  </header>
+
+  <main>
+    <section id="support">
+      <h2>技术支持</h2>
+      <p>如需帮助，请联系：<a href="mailto:ly88321@gmail.com">ly88321@gmail.com</a></p>
+      <p>反馈问题时，请说明 iOS 版本、LanBox 版本、所用客户端系统，以及 HTTP 或 SMB 的具体错误信息。请勿发送密码或私人文件。</p>
+    </section>
+
+    <section id="privacy">
+      <h2>隐私政策</h2>
+      <p><strong>生效日期：</strong>2026 年 10 月 4 日<br><strong>发布者：</strong>Shawn<br><strong>联系方式：</strong><a href="mailto:ly88321@gmail.com">ly88321@gmail.com</a></p>
+      <p>LanBox 不包含广告、分析 SDK 或开发者运营的云端服务，也不会向发布者收集或上传个人数据。</p>
+      <p>LanBox 专业版购买由 Apple 的 App Store 和 StoreKit 处理。发布者不会取得用户的银行卡或付款资料；App 仅从 StoreKit 读取专业版权益状态。</p>
+      <p>用户启动服务后，LanBox 会在当前局域网内监听 HTTP 和/或 SMB 连接。用户选择连接的局域网设备可按照设置的权限读取或写入 App Documents 目录。传输仅发生在用户设备与局域网客户端之间，发布者不会接收传输内容。</p>
+      <p>启用“共享手机相册”后，LanBox 会请求照片权限，并通过 PhotoKit 提供只读虚拟目录。照片和视频仅在局域网客户端请求打开时按需读取，不会为了共享而完整复制相册，也不会上传给发布者。用户可随时在系统设置中撤销照片权限。</p>
+      <p>账号、密码、App 密码和偏好设置保存在设备本地。敏感凭据使用 iOS Keychain。Face ID 验证由系统完成，LanBox 不会获得或保存面部数据。</p>
+      <p>LanBox 进入后台后停止文件服务。用户可在 LanBox 或“文件”App 中删除本地文件，也可通过卸载 App 删除其本地数据。</p>
+      <p>HTTP Basic Authentication 不提供传输加密。请仅在可信局域网中使用 HTTP。</p>
+    </section>
+
+    <section id="english" lang="en">
+      <h2>Support</h2>
+      <p>For help, contact <a href="mailto:ly88321@gmail.com">ly88321@gmail.com</a>. When reporting an issue, include the iOS version, LanBox version, client operating system, and the exact HTTP or SMB error. Do not send passwords or private files.</p>
+
+      <h2>Privacy Policy</h2>
+      <p><strong>Effective date:</strong> October 4, 2026<br><strong>Provider:</strong> Shawn<br><strong>Contact:</strong> <a href="mailto:ly88321@gmail.com">ly88321@gmail.com</a></p>
+      <p>LanBox contains no advertising or analytics SDK and uses no provider-operated cloud service. It does not collect or upload personal data to the provider.</p>
+      <p>LanBox Pro purchases are processed by Apple's App Store and StoreKit. The provider does not receive payment-card or billing details; the app only reads the Pro entitlement status supplied by StoreKit.</p>
+      <p>When sharing is started, LanBox listens for HTTP and/or SMB connections on the current local network. Local network clients selected by the user may read or write the app's Documents directory according to configured permissions. Transfers occur directly between the user's device and local network client; the provider does not receive their contents.</p>
+      <p>If Photo Library sharing is enabled, LanBox requests photo access and presents a read-only virtual directory backed by PhotoKit. Photos and videos are read on demand only when a local client opens them. The library is not duplicated for sharing or uploaded to the provider. Photo access can be revoked in system settings.</p>
+      <p>Account credentials, app passcode, and preferences remain on the device. Sensitive credentials use the iOS Keychain. Face ID authentication is performed by the system; LanBox does not receive or store facial data.</p>
+      <p>File services stop when LanBox enters the background. Users can delete local files in LanBox or the Files app, or remove local app data by uninstalling LanBox.</p>
+      <p>HTTP Basic Authentication does not encrypt network traffic. Use HTTP only on a trusted local network.</p>
+    </section>
+  </main>
+</body>
+</html>
